@@ -82,7 +82,7 @@ def main():
     txt(575,48,'WEDNESDAY 25 NOVEMBER 2026',R,2)
     box(30,91,964,2,K)
     txt(30,105,'WORLD NEWS - 21 DATE-CHECKED DISPATCHES',K,2)
-    txt(30,131,'EDITION 25 NOV 2026  ·  EVERY DISPATCH SHOWS REPORTING DATE',G,1)
+    txt(30,131,'EDITION 25 NOV 2026  -  EVERY DISPATCH SHOWS REPORTING DATE',G,1)
     top=155; cw=186; ch=115; gapx=8; gapy=5
     for i,(tag,date,src,head) in enumerate(S):
         row,col=divmod(i,5); x=24+col*(cw+gapx); y=top+row*(ch+gapy)
