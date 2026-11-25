@@ -96,7 +96,7 @@ def main():
         txt(x+8,y+101,'DATE CHECKED',B,1,27)
     fy=top+6*(ch+gapy)+3
     box(24,fy,976,2,K)
-    txt(30,fy+9,'THE WIRE  |  25 NOVEMBER 2026  |  SOURCES: REUTERS, ANADOLU, FT AND OTHERS',G,1)
+    txt(30,fy+9,'THE WIRE  -  25 NOVEMBER 2026  -  SOURCES: REUTERS, ANADOLU, FT AND OTHERS',G,1)
     txt(30,fy+22,'DATES UNDER EACH HEADLINE REFER TO THE CITED REPORTING IN FACTS.MD',G,1)
     scan=bytearray()
     stride=W*3
